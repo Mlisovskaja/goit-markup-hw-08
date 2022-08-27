@@ -29,6 +29,9 @@
     .mobile-menu-open {
         display: none;
     }
+    .page-header {
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
 
     .page-nav {
         display: flex;
@@ -80,6 +83,7 @@
             display: flex;
             flex-direction: column;
             margin-left: auto;
+            gap: 10px;
 
         }
         .contact-e-mail,
@@ -103,9 +107,6 @@
 
 /*---------------DESKTOP-----------------*/
 @media screen and (min-width: 1200px) {
-.page-header {
-    border-bottom: 1px solid rgba(236, 236, 236, 1);
-}
 
 
 .page-header__logo {

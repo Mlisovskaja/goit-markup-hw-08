@@ -423,6 +423,9 @@ button {
     display: block;
     margin-bottom: 20px;
   }
+  .footer-contacts-list-item:not(:last-child) {
+    margin-bottom: 9px;
+  }
   .footer-address-link {
     font-style: normal;
     font-weight: 400;
@@ -592,6 +595,9 @@ button {
   .mobile-menu-open {
     display: none;
   }
+  .page-header {
+    border-bottom: 1px solid rgb(236, 236, 236);
+  }
   .page-nav {
     display: flex;
     align-items: center;
@@ -639,6 +645,7 @@ button {
     display: flex;
     flex-direction: column;
     margin-left: auto;
+    gap: 10px;
   }
   .contact-e-mail,
 .contact-phone-number {
@@ -659,9 +666,6 @@ button {
 }
 /*---------------DESKTOP-----------------*/
 @media screen and (min-width: 1200px) {
-  .page-header {
-    border-bottom: 1px solid rgb(236, 236, 236);
-  }
   .page-header__logo {
     margin-right: 93px;
   }
@@ -781,17 +785,6 @@ button {
   }
   .current {
     color: var(--accent-color);
-    position: relative;
-  }
-  .current::after {
-    position: absolute;
-    bottom: 0;
-    display: block;
-    content: "";
-    border-radius: 2px;
-    background-color: var(--accent-color);
-    height: 4px;
-    width: 100%;
   }
   .mobile-menu__contacts-box {
     display: flex;
@@ -1268,6 +1261,9 @@ button {
     display: flex;
     flex-wrap: wrap;
   }
+  .advantages-list__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
   .advantages-list__icon-box {
     display: flex;
     justify-content: center;
@@ -1294,7 +1290,6 @@ button {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
-    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) {

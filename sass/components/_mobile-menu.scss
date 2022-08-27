@@ -59,20 +59,9 @@
     }
 
      .current {
-            color: var(--accent-color);
-            position: relative;
-            
-            &::after {
-                    position: absolute;
-                    bottom: 0;
-                    display: block;
-                    content: "";
-                    border-radius: 2px;
-                    background-color: var(--accent-color);
-                    height: 4px;
-                    width: 100%;
-                }
-            }
+    color: var(--accent-color);
+     }
+     
     .mobile-menu__contacts-box {
         display: flex;
         flex-direction: column;
