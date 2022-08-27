@@ -39,8 +39,8 @@
     }
     .page-header-box {
         display: flex;
-        padding-top: 24px;
-        padding-bottom: 24px;
+        padding-top: 21px;
+        padding-bottom: 21px;
         align-items: center;
     }
     .page-header__logo {
@@ -61,7 +61,7 @@
             letter-spacing: 0.02em;
             color: #212121;
             padding-top: 32px;
-            padding-bottom: 32px;
+            padding-bottom: 33px;
         }
         .current {
             color: var(--accent-color);
@@ -107,7 +107,10 @@
 
 /*---------------DESKTOP-----------------*/
 @media screen and (min-width: 1200px) {
-
+.page-header-box {
+        padding-top: 24px;
+        padding-bottom: 24px;
+}
 
 .page-header__logo {
     margin-right: 93px;
@@ -119,6 +122,7 @@
 }
 
 .menu__link {
+    padding-bottom: 32px;
     transition: var(--transition-main);
 
     &:hover {
